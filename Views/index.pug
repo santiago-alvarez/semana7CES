@@ -1,0 +1,40 @@
+extends header
+block content
+    #Padre
+        .titleContainer
+            h1= PageName
+        .content-form
+            form(id="Register" action="/login" method="post")
+                h2 Registrate
+                .Group
+                    p(class="GroupCont") Ingresa tu nombre:
+                    input(
+                        type="text"
+                        placeholder="Nombre"
+                        name="Nombre"
+                        class="GroupCont inputRegister"
+                        )
+                br
+                .Group
+                    p(class="GroupCont") Ingresa tu correo:
+                    input(
+                        type="email"
+                        placeholder="Correo"
+                        name="Correo"
+                        class="GroupCont inputRegister"
+                        )
+                br
+                .Group
+                    p(class="GroupCont") Ingresa tu contraseña:
+                    input(
+                        type="password"
+                        name="Contraseña"
+                        class="GroupCont inputRegister"
+                        )
+                br
+                input(
+                    type="submit"
+                    value="Registrarse"
+                    id="SubmitRegister"
+                )
+            

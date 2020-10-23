@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-weight: unset;
+    font-size: 16px;
+}
+.none{
+    display: none;
+}
+#SubmitRegister{
+width:200px;
+height: 35px;
+border-radius: 5px;
+border:1px solid rgb(0, 0, 0, 0.5);
+background-color: lightslategray;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+transition: all 700ms;
+}
+#SubmitRegister:hover{
+    transition: all 700ms;
+    background-color: white;
+}
+#SubmitRegister:focus{
+    outline: none;
+}
+.Group{
+    width: 100%;
+}
+.GroupCont{
+    margin: 0;
+}
+.inputRegister{
+    width: 100%;
+    height: 35px;
+}
+#Register
+{   width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#Padre{
+    width: 100%;
+    height: 100vh;
+    background-color: moccasin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.content-form{
+    padding: 20px;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+}
+#Padre2{
+    margin-top:0;
+    background-color: moccasin;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+#TitleContainer{
+    background-color:gray;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+#Elpepe{
+    width: 80%;
+    text-align: center;
+}
+#buttonAtras{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: all 700ms;
+}
+#TitleContainer2{
+    background-color:gray;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#CardsContainer{
+width: 100%;
+height: calc(100vh - 100px);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Card{
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    margin:0 50px 0 50px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.InfoCard{
+    width: 300px;
+    height: 300px;
+}
+.BotomPrincipal{
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: all 700ms;
+}
+.BotomPrincipal:hover, #buttonAtras:hover{
+    transition: all 700ms;
+    color: black;
+    border:1px solid white;
+    background-color: white;
+}
+.BotomPrincipal:focus{
+    outline: none;
+}
+.Textarea{
+    width: 200px;
+    height: 200px;
+}

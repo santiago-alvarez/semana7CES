@@ -1,0 +1,32 @@
+extends header
+block content
+    #Padre
+        .content-form
+            form(id="Register" action="/Principal" method="post")
+                input(type="text" name="name2" class="none" value=Name)
+                input(type="text" name="correo2" class="none" value=Email)
+                input(type="text" name="contraseña2" class="none" value=Password)
+                h2 Iniciar sesión:
+                .Group
+                    p(class="GroupCont") Ingresa tu correo:
+                    input(
+                        type="email"
+                        placeholder="Correo"
+                        name="Correo"
+                        class="GroupCont inputRegister"
+                        )
+                br
+                .Group
+                    p(class="GroupCont") Ingresa tu contraseña:
+                    input(
+                        type="password"
+                        name="Contraseña"
+                        class="GroupCont inputRegister"
+                        )
+                br
+                input(
+                    type="submit"
+                    value="Iniciar sesión"
+                    id="SubmitRegister"
+                )
+            
